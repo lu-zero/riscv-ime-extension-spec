@@ -271,10 +271,10 @@ The data type of supported by the the floating-point sliding-window dot-product 
 [width="100%",cols="2,2,3,3,3",options="header",]
 |===
 |category | instructions | Operand Type A | Operand Type B | Accumulator Type C |
-slide-1 | vfmadot1  | fp4/fp8/fp16/bfp16 | fp4/fp8/fp16/bfp16 | fp16/fp16/fp16/bfp16 |
-slide-2 | vfmadot2  | fp4/fp8/fp16/bfp16 | fp4/fp8/fp16/bfp16 | fp16/fp16/fp16/bfp16 |
-slide-3 | vfmadot3  | fp4/fp8/fp16/bfp16 | fp4/fp8/fp16/bfp16 | fp16/fp16/fp16/bfp16 |
-slide-n |vfmadotn  | fp4/fp8/fp16/bfp16 | fp4/fp8/fp16/bfp16 | fp16/fp16/fp16/bfp16 |
+| slide-1 | vfmadot1  | fp4/fp8/fp16/bfp16 | fp4/fp8/fp16/bfp16 | fp16/fp16/fp16/bfp16 |
+| slide-2 | vfmadot2  | fp4/fp8/fp16/bfp16 | fp4/fp8/fp16/bfp16 | fp16/fp16/fp16/bfp16 |
+| slide-3 | vfmadot3  | fp4/fp8/fp16/bfp16 | fp4/fp8/fp16/bfp16 | fp16/fp16/fp16/bfp16 |
+| slide-n | vfmadotn  | fp4/fp8/fp16/bfp16 | fp4/fp8/fp16/bfp16 | fp16/fp16/fp16/bfp16 |
 |===
 
 And the usage of the instructions:
